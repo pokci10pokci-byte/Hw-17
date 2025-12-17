@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Нумеровани список</title>
+</head>
+<body>
+    <h1>Мойі улюблені тварини</h1>
+    <ol start="1">
+        <li>Коти</li>
+        <li>Собаки</li>
+        <li>Лисиці</li>
+        <li>Панди</li>
+    </ol>
+
+    <h2>Зображенйа тварин</h2>
+    <img 
+       src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Cat03.jpg" 
+        alt="Кіт" 
+        width="300"
+    ><br><br>
+    <img 
+        src="images/dog.jpg" 
+        alt="Кіт" 
+        width="300"
+    >
+
+</body>
+</html>
