@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Анкета </title>
+</head>
+<body>
+
+<h2>Анкета</h2>
+
+<form>
+
+  <fieldset>
+    <legend>Контакна інформаційа</legend>
+
+    <label for="name">Ім'я:</label><br>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="phone">Телефон</label><br>
+    <input type="tel" id="phone" name="phone" placeholder="000-000-00-00"><br><br>
+
+    <label for="email">Emal:</label><br>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="date">Дата відвідуванйа:</label><br>
+    <input type="date" id="date" name="date">
+  </fieldset>
+
+  <br>
+
+  <fieldset>
+    <legend>Персональна інформаційа</legend>
+
+    <label for="age">Вік:</label><br>
+    <input type="number" id="age" name="age"><br><br>
+
+    <label for="kitchen">Улюблена кухня:</label><br>
+    <input type="text" id="kitchen" name="kitchen"><br><br>
+
+    <label for="ideas">Йакі ще страви ви б хотіли бачити в менйу?</label><br>
+    <textarea id="ideas" name="ideas" rows="4"></textarea>
+  </fieldset>
+
+  <br>
+
+  <fieldset>
+    <legend>Оцінка нашого закладу</legend>
+
+    <p>Чому ви обрали наш заклад?</p>
+    <input type="checkbox" id="work" name="reason" value="work">
+    <label for="work">Поряд з місцем роботи</label><br>
+
+    <input type="checkbox" id="ads" name="reason" value="ads">
+    <label for="ads">Побачив рекламу</label><br>
+
+    <input type="checkbox" id="friends" name="reason" value="friends">
+    <label for="friends">Порадили друзі</label><br>
+
+    <input type="checkbox" id="price" name="reason" value="price">
+    <label for="price">Найкраще співвідношення ціни і якості</label>
+
+    <br><br>
+
+    <p>Чи будете ви рекомендувати наш заклад своїм знайомим?</p>
+    <input type="radio" id="yes" name="recommend" value="yes">
+    <label for="yes">Так</label><br>
+
+    <input type="radio" id="no" name="recommend" value="no">
+    <label for="no">Ні</label>
+  </fieldset>
+
+  <br>
+
+  <button type="submit">Відправити</button>
+
+</form>
+
+</body>
+</html>
+<link rel="stylesheet" href="style.css">
