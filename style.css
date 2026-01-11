@@ -1,16 +1,24 @@
 body {
-    background-color: rgb(139, 206, 228);
     font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
     padding: 20px;
 }
 
 h1 {
-    color: rgb(6, 6, 156);
     text-align: center;
+    color: #333;
 }
 
-p {
+h2 {
+    margin-top: 30px;
+}
+
+ol {
     font-size: 18px;
-    color: #3d2a2a;
 }
 
+img {
+    width: 250px;
+    margin: 10px;
+    border: 2px solid #333;
+}
