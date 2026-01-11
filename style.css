@@ -1,18 +1,16 @@
-.btn {
-    font-size: 24px;
-    font-weight: 700;
-    background-color: yellow;
-    padding: 10px 20px;
-    margin: 40px;
-    border: none;
+body {
+    background-color: rgb(139, 206, 228);
+    font-family: Arial, sans-serif;
+    padding: 20px;
 }
 
-.btn:hover,
-.btn:focus {
-    background-color: orange;
+h1 {
+    color: rgb(6, 6, 156);
+    text-align: center;
 }
 
-.text {
+p {
     font-size: 18px;
-    font-style: italic;
+    color: #3d2a2a;
 }
+
