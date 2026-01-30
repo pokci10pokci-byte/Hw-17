@@ -1,40 +1,17 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-    padding: 40px;
+  margin: 0;
+  background: #f6f4dc; /* бежевий фон */
 }
 
-.container {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 фото в ряд */
+  gap: 40px;            /* відстань між фото */
+  padding: 40px;        /* відступ від країв */
 }
 
-.card {
-    background-color: white;
-    width: 300px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    overflow: hidden;
-    text-align: center;
-    transition: transform 0.3s;
-}
-
-.card:hover {
-    transform: translateY(-5px);
-}
-
-.card img {
-    width: 100%;
-    height: auto;
-}
-
-.card h3 {
-    padding: 15px;
+.gallery img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
